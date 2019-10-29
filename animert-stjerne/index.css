@@ -1,0 +1,23 @@
+body {
+    background-color: black;;
+}
+
+#stjerne {
+    stroke: red;
+    stroke-width: 2;
+    fill: none;   
+    
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+
+    /* animation: strektegning 4s forwards; */
+}
+
+
+/*
+@keyframes strektegning {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+*/
